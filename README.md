@@ -70,15 +70,15 @@ npm install
 npm run dev
 
 # Ou executar individualmente:
-npm run dev:web    # Frontend na porta 3001
-npm run dev:server # Backend na porta 3000
+npm run dev:web    # Frontend na porta 3000
+npm run dev:server # Backend na porta 3001
 ```
 
 ### URLs de Acesso
 
-- 🌐 **Frontend**: http://localhost:3001
-- 🚀 **API**: http://localhost:3000
-- 📚 **Documentação**: http://localhost:3000/api/docs
+- 🌐 **Frontend**: http://localhost:3000
+- 🚀 **API**: http://localhost:3001
+- 📚 **Documentação**: http://localhost:3001/api/docs
 
 ## 📁 Estrutura Detalhada
 

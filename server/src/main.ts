@@ -19,8 +19,8 @@ async function bootstrap() {
   // CORS configuration
   app.enableCors({
     origin: process.env.ALLOWED_ORIGINS?.split(',') || [
-      'http://localhost:3000',
-      'http://localhost:3001', // Frontend Next.js
+      'http://localhost:3000', // Frontend Next.js
+      'http://localhost:3001',
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
@@ -57,7 +57,7 @@ async function bootstrap() {
     SwaggerModule.setup('api/docs', app, document);
   }
 
-  const port = process.env.PORT || 3000;
+  const port = process.env.PORT || 3001;
   await app.listen(port);
 
   console.log('🚀 Servidor NestJS rodando na porta', port);

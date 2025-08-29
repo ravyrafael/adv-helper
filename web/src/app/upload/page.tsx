@@ -211,63 +211,66 @@ export default function UploadPage() {
     [files.length, toast],
   );
 
-  const uploadPdf = useCallback(async (uploadFile: UploadedFile, index: number) => {
-    setIsUploading(true);
+  const uploadPdf = useCallback(
+    async (uploadFile: UploadedFile, index: number) => {
+      setIsUploading(true);
 
-    try {
-      const formData = new FormData();
-      formData.append('file', uploadFile.file);
+      try {
+        const formData = new FormData();
+        formData.append('file', uploadFile.file);
 
-      // Simulate progress
-      const progressInterval = setInterval(() => {
+        // Simulate progress
+        const progressInterval = setInterval(() => {
+          setFiles((prev) =>
+            prev.map((f, i) =>
+              i === index && f.status === 'uploading'
+                ? { ...f, progress: Math.min(f.progress + 10, 90) }
+                : f,
+            ),
+          );
+        }, 200);
+
+        const response = await apiRequest('/api/v1/pdf/convert', {
+          method: 'POST',
+          body: formData,
+          headers: {
+            // Remove Content-Type to let fetch set it with boundary for FormData
+          },
+        });
+
+        clearInterval(progressInterval);
+
         setFiles((prev) =>
           prev.map((f, i) =>
-            i === index && f.status === 'uploading'
-              ? { ...f, progress: Math.min(f.progress + 10, 90) }
+            i === index
+              ? { ...f, progress: 100, status: 'completed', result: response }
               : f,
           ),
         );
-      }, 200);
 
-      const response = await apiRequest('/api/v1/pdf/convert', {
-        method: 'POST',
-        body: formData,
-        headers: {
-          // Remove Content-Type to let fetch set it with boundary for FormData
-        },
-      });
+        toast({
+          variant: 'success',
+          title: 'Upload concluído!',
+          description: `${uploadFile.file.name} foi processado com sucesso.`,
+        });
+      } catch (error: any) {
+        setFiles((prev) =>
+          prev.map((f, i) =>
+            i === index ? { ...f, status: 'error', error: error.message } : f,
+          ),
+        );
 
-      clearInterval(progressInterval);
-
-      setFiles((prev) =>
-        prev.map((f, i) =>
-          i === index
-            ? { ...f, progress: 100, status: 'completed', result: response }
-            : f,
-        ),
-      );
-
-      toast({
-        variant: 'success',
-        title: 'Upload concluído!',
-        description: `${uploadFile.file.name} foi processado com sucesso.`,
-      });
-    } catch (error: any) {
-      setFiles((prev) =>
-        prev.map((f, i) =>
-          i === index ? { ...f, status: 'error', error: error.message } : f,
-        ),
-      );
-
-      toast({
-        variant: 'destructive',
-        title: 'Erro no upload',
-        description: `Falha ao processar ${uploadFile.file.name}: ${error.message}`,
-      });
-    } finally {
-      setIsUploading(false);
-    }
-  }, [toast]);
+        toast({
+          variant: 'destructive',
+          title: 'Erro no upload',
+          description: `Falha ao processar ${uploadFile.file.name}: ${error.message}`,
+        });
+      } finally {
+        setIsUploading(false);
+      }
+    },
+    [toast],
+  );
 
   const removeFile = (index: number) => {
     setFiles((prev) => prev.filter((_, i) => i !== index));
@@ -304,8 +307,8 @@ export default function UploadPage() {
             <CardHeader>
               <CardTitle>Documentos Convertidos</CardTitle>
               <CardDescription>
-                Clique em &ldquo;Analisar&rdquo; para processar os documentos já convertidos
-                ou visualize análises existentes.
+                Clique em &ldquo;Analisar&rdquo; para processar os documentos já
+                convertidos ou visualize análises existentes.
               </CardDescription>
             </CardHeader>
             <CardContent>
