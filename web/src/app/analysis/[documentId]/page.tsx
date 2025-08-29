@@ -15,7 +15,6 @@ import { useToast } from '@/lib/toast';
 import {
   ArrowLeft,
   FileText,
-  User,
   Calendar,
   CreditCard,
   DollarSign,
@@ -89,10 +88,19 @@ export default function AnalysisPage() {
   const loadAnalysis = async () => {
     try {
       setIsLoading(true);
-      const response = await apiRequest(`/api/v1/pdf/analyze/${documentId}`, {
+      const response = (await apiRequest(`/api/v1/pdf/analyze/${documentId}`, {
         method: 'POST',
-      });
-      setAnalysis(response.analysis);
+      })) as any;
+      if (response && response.analysis) {
+        setAnalysis(response.analysis);
+      } else {
+        toast({
+          variant: 'destructive',
+          title: 'Erro ao carregar análise',
+          description: 'Não foi possível carregar a análise',
+        });
+        router.push('/upload');
+      }
     } catch (error: any) {
       toast({
         variant: 'destructive',

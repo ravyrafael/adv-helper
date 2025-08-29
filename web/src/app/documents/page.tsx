@@ -25,7 +25,6 @@ import {
   RefreshCw,
   Printer,
   Search,
-  Filter,
   Plus,
 } from 'lucide-react';
 import { formatDate, formatFileSize, apiRequest } from '@/lib/utils';

@@ -1,5 +1,4 @@
 'use client';
-
 import { useState, useCallback, useEffect } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { Button } from '@/components/ui/button';
@@ -65,18 +64,13 @@ export default function UploadPage() {
   const [selectedDocument, setSelectedDocument] = useState<string | null>(null);
   const [documentAnalysis, setDocumentAnalysis] = useState<any>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [showFullAnalysis, setShowFullAnalysis] = useState(false);
+  // const [showFullAnalysis, setShowFullAnalysis] = useState(false);
   const { toast } = useToast();
 
-  // Carregar documentos existentes
-  useEffect(() => {
-    loadExistingDocuments();
-  }, []);
-
-  const loadExistingDocuments = async () => {
+  const loadExistingDocuments = useCallback(async () => {
     try {
       setIsLoadingDocuments(true);
-      const response = await apiRequest('/api/v1/pdf/documents');
+      const response = (await apiRequest('/api/v1/pdf/documents')) as any;
       setExistingDocuments(response.data || []);
     } catch (error: any) {
       console.error('Erro ao carregar documentos:', error);
@@ -88,16 +82,21 @@ export default function UploadPage() {
     } finally {
       setIsLoadingDocuments(false);
     }
-  };
+  }, [toast]);
+
+  // Carregar documentos existentes
+  useEffect(() => {
+    loadExistingDocuments();
+  }, [loadExistingDocuments]);
 
   const analyzeDocument = async (documentId: string) => {
     try {
       setIsAnalyzing(true);
       setSelectedDocument(documentId);
 
-      const response = await apiRequest(`/api/v1/pdf/analyze/${documentId}`, {
+      const response = (await apiRequest(`/api/v1/pdf/analyze/${documentId}`, {
         method: 'POST',
-      });
+      })) as any;
 
       setDocumentAnalysis(response.analysis);
 
@@ -136,9 +135,9 @@ export default function UploadPage() {
       setIsAnalyzing(true);
       setSelectedDocument(documentId);
 
-      const response = await apiRequest(`/api/v1/pdf/analyze/${documentId}`, {
+      const response = (await apiRequest(`/api/v1/pdf/analyze/${documentId}`, {
         method: 'POST',
-      });
+      })) as any;
 
       console.log('🔍 Resposta da análise:', response);
       setDocumentAnalysis(response.analysis);
@@ -212,7 +211,7 @@ export default function UploadPage() {
     [files.length, toast],
   );
 
-  const uploadPdf = async (uploadFile: UploadedFile, index: number) => {
+  const uploadPdf = useCallback(async (uploadFile: UploadedFile, index: number) => {
     setIsUploading(true);
 
     try {
@@ -268,7 +267,7 @@ export default function UploadPage() {
     } finally {
       setIsUploading(false);
     }
-  };
+  }, [toast]);
 
   const removeFile = (index: number) => {
     setFiles((prev) => prev.filter((_, i) => i !== index));
@@ -305,7 +304,7 @@ export default function UploadPage() {
             <CardHeader>
               <CardTitle>Documentos Convertidos</CardTitle>
               <CardDescription>
-                Clique em "Analisar" para processar os documentos já convertidos
+                Clique em &ldquo;Analisar&rdquo; para processar os documentos já convertidos
                 ou visualize análises existentes.
               </CardDescription>
             </CardHeader>
@@ -607,7 +606,6 @@ export default function UploadPage() {
                     onClick={() => {
                       setDocumentAnalysis(null);
                       setSelectedDocument(null);
-                      setShowFullAnalysis(false);
                     }}
                   >
                     <X className="h-4 w-4 mr-1" />
