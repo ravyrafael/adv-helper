@@ -1,0 +1,2836 @@
+{
+  "timestamp": "2025-08-29T21:40:02.783Z",
+  "completed": true,
+  "totalPages": 11,
+  "processedPages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "extractedData": [
+    {
+      "page": 1,
+      "data": {
+        "beneficiario": {
+          "nome": "LUISA MESQUITA DOS SANTOS",
+          "aposentadoria": "APOSENTADORIA POR TEMPO DE CONTRIBUICAO",
+          "numero_beneficio": "148.459.274-0",
+          "situacao": "ATIVO",
+          "pago_em": "CAIXA ECONOMICA FEDERAL",
+          "meio": "Conta Corrente",
+          "agencia": "3221",
+          "conta_corrente": "5820316823",
+          "nao_possui_procurador": true,
+          "nao_possui_representante_legal": true,
+          "nao_e_pensao_alimenticia": true,
+          "liberado_para_emprestimo": true,
+          "elegivel_para_emprestimos": true
+        },
+        "quantitativo_emprestimos": {
+          "ativos": 6,
+          "suspensos": 0,
+          "reservados_portabilidade": 0,
+          "reservados_refinanciamento": 0
+        },
+        "autenticidade": {
+          "url": "https://meu.inss.gov.br/central/#/autenticidade",
+          "codigo": "240326HKQCHM6I8XATQ261"
+        },
+        "data_emissao": "26/03/2024 13:43:47",
+        "pagina": "1 / 11"
+      }
+    },
+    {
+      "page": 2,
+      "data": {
+        "valores_do_beneficio": {
+          "base_de_calculo": "R$3.334,86",
+          "maximo_de_comprometimento_permitido": "R$1.500,69",
+          "total_comprometido": "R$1.315,70",
+          "margem_extrapolada": "R$0,00"
+        },
+        "valores_por_modalidade": {
+          "emprestimos": {
+            "margem_consignavel": "R$1.167,20",
+            "margem_utilizada": "R$1.148,96",
+            "margem_reservada": "R$0,00",
+            "margem_disponivel": "R$18,24",
+            "margem_extrapolada": "R$0,00"
+          },
+          "rmc": {
+            "margem_consignavel": "R$166,74",
+            "margem_utilizada": "R$166,74",
+            "margem_reservada": "-",
+            "margem_disponivel": "R$0,00",
+            "margem_extrapolada": "R$0,00"
+          },
+          "rcc": {
+            "margem_consignavel": "R$166,74",
+            "margem_utilizada": "R$0,00",
+            "margem_reservada": "-",
+            "margem_disponivel": "R$166,74",
+            "margem_extrapolada": "R$0,00"
+          }
+        },
+        "data": "26/03/2024 13:43:47",
+        "pagina": "2 / 11"
+      }
+    },
+    {
+      "page": 3,
+      "data": {
+        "contratos": [
+          {
+            "contrato": "816624588",
+            "banco": "394 - BANCO BRADESCO FINANCIAMENTOS S.A",
+            "situacao": "Ativo",
+            "origem": "Averbação nova",
+            "data_inclusao": "26/05/2021",
+            "competencia": {
+              "inicio_desconto": "06/2021",
+              "fim_desconto": "05/2028"
+            },
+            "qtde_parcelas": "84",
+            "parcela": "R$40,30",
+            "valor": {
+              "emprestado": "R$1.710,69",
+              "liberado": "R$1.654,44"
+            }
+          },
+          {
+            "contrato": "219653708",
+            "banco": "033 - BANCO SANTANDER",
+            "situacao": "Ativo",
+            "origem": "Migrado do contrato 219653708 CBC: 955",
+            "data_inclusao": "28/06/2021",
+            "competencia": {
+              "inicio_desconto": "05/2021",
+              "fim_desconto": "04/2028"
+            },
+            "qtde_parcelas": "84",
+            "parcela": "R$829,15",
+            "valor": {
+              "emprestado": "R$69.648,60",
+              "liberado": "R$40.522,90"
+            }
+          },
+          {
+            "contrato": "00000000000000011458024",
+            "banco": "041 - BANCO DO ESTADO DO RIO GRANDE DO SUL S.A",
+            "situacao": "Ativo",
+            "origem": "Averbação por Refinanciamento",
+            "data_inclusao": "07/06/2022",
+            "competencia": {
+              "inicio_desconto": "07/2022",
+              "fim_desconto": "06/2029"
+            },
+            "qtde_parcelas": "84",
+            "parcela": "R$69,20",
+            "valor": {
+              "emprestado": "R$3.283,96"
+            },
+            "iof": "R$10,91"
+          },
+          {
+            "contrato": "010114431374",
+            "banco": "626 - BANCO C6 CONSIGNADO S.A",
+            "situacao": "Ativo",
+            "origem": "Averbação nova",
+            "data_inclusao": "12/04/2022",
+            "competencia": {
+              "inicio_desconto": "05/2022",
+              "fim_desconto": "04/2029"
+            },
+            "qtde_parcelas": "84",
+            "parcela": "R$85,15",
+            "valor": {
+              "emprestado": "R$7.152,60",
+              "liberado": "R$3.119,00"
+            },
+            "iof": "R$97,66"
+          },
+          {
+            "contrato": "269457350",
+            "banco": "033 - BANCO SANTANDER",
+            "situacao": "Ativo",
+            "origem": "Averbação nova",
+            "data_inclusao": "02/05/2023",
+            "competencia": {
+              "inicio_desconto": "05/2023",
+              "fim_desconto": "04/2030"
+            },
+            "qtde_parcelas": "84",
+            "parcela": "R$57,01",
+            "valor": {
+              "emprestado": "R$2.230,96",
+              "liberado": "R$2.230,96"
+            }
+          },
+          {
+            "contrato": "285667070",
+            "banco": "033 - BANCO SANTANDER",
+            "situacao": "Ativo",
+            "origem": "Averbação nova",
+            "data_inclusao": "31/01/2024",
+            "competencia": {
+              "inicio_desconto": "02/2024",
+              "fim_desconto": "01/2031"
+            },
+            "qtde_parcelas": "84",
+            "parcela": "R$68,15",
+            "valor": {
+              "emprestado": "R$2.941,04",
+              "liberado": "R$2.851,78"
+            },
+            "iof": "R$89,26",
+            "cet_anual": "1,88",
+            "taxa_juros_mensal": "25,06",
+            "taxa_juros_anual": "1,76",
+            "valor_pago": "23,28",
+            "primeiro_desconto": "08/03/24"
+          }
+        ],
+        "data": "26/03/2024 13:43:47"
+      }
+    },
+    {
+      "page": 4,
+      "data": {
+        "contratos": [
+          {
+            "contrato": "190718955",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A.",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "18/02/20",
+            "competência": {
+              "início desconto": "03/2020",
+              "fim desconto": "11/2020",
+              "qtde parcelas": "72"
+            },
+            "valor": {
+              "parcela": "R$31,09",
+              "emprestado": "R$2.238,48",
+              "liberado": "R$1.100,98"
+            },
+            "data": {
+              "exclusão": "07/12/20",
+              "origem da exclusão": "Exclusão Banco"
+            }
+          },
+          {
+            "contrato": "205229089",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A.",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "17/08/20",
+            "competência": {
+              "início desconto": "09/2020",
+              "fim desconto": "08/2020",
+              "qtde parcelas": "60"
+            },
+            "valor": {
+              "parcela": "R$673,81",
+              "emprestado": "R$40.428,60",
+              "liberado": "R$25.961,35"
+            },
+            "data": {
+              "exclusão": "24/08/20",
+              "origem da exclusão": "Exclusão Banco"
+            }
+          },
+          {
+            "contrato": "113221110000455989",
+            "banco": "104 - CAIXA ECONOMICA FEDERAL",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "23/06/19",
+            "competência": {
+              "início desconto": "07/2019",
+              "fim desconto": "08/2020",
+              "qtde parcelas": "72"
+            },
+            "valor": {
+              "parcela": "R$673,81",
+              "emprestado": "R$48.514,32",
+              "liberado": "R$27.100,00"
+            },
+            "data": {
+              "exclusão": "09/08/20",
+              "origem da exclusão": "Exclusão Banco"
+            }
+          },
+          {
+            "contrato": "000011133686",
+            "banco": "422 - BANCO SAFRA S.A.",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "25/07/19",
+            "competência": {
+              "início desconto": "08/2019",
+              "fim desconto": "07/2019",
+              "qtde parcelas": "72"
+            },
+            "valor": {
+              "parcela": "R$63,10",
+              "emprestado": "R$4.543,20",
+              "liberado": "R$2.249,90"
+            },
+            "data": {
+              "exclusão": "24/07/19",
+              "origem da exclusão": "Exclusão Banco"
+            }
+          },
+          {
+            "contrato": "592175229",
+            "banco": "341 - BANCO ITAU CONSIGNADO S.A.",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "25/07/19",
+            "competência": {
+              "início desconto": "08/2019",
+              "fim desconto": "08/2020",
+              "qtde parcelas": "72"
+            },
+            "valor": {
+              "parcela": "R$63,10",
+              "emprestado": "R$4.543,20",
+              "liberado": "R$2.249,55"
+            },
+            "data": {
+              "exclusão": "03/09/20",
+              "origem da exclusão": "Exclusão Banco"
+            }
+          },
+          {
+            "contrato": "188890359",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A.",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "08/02/20",
+            "competência": {
+              "início desconto": "03/2020",
+              "fim desconto": "02/2020",
+              "qtde parcelas": "72"
+            },
+            "valor": {
+              "parcela": "R$31,09",
+              "emprestado": "R$2.238,48",
+              "liberado": "R$1.096,37"
+            },
+            "data": {
+              "exclusão": "18/02/20",
+              "origem da exclusão": "Exclusão Banco"
+            }
+          },
+          {
+            "contrato": "206182027",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A.",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "24/08/20",
+            "competência": {
+              "início desconto": "10/2020",
+              "fim desconto": "11/2020",
+              "qtde parcelas": "84"
+            },
+            "valor": {
+              "parcela": "R$550,00",
+              "emprestado": "R$46.200,00",
+              "liberado": "R$26.648,12"
+            },
+            "data": {
+              "exclusão": "07/12/20",
+              "origem da exclusão": "Exclusão Banco"
+            }
+          },
+          {
+            "contrato": "620721537",
+            "banco": "341 - BANCO ITAU CONSIGNADO S.A.",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "26/08/20",
+            "competência": {
+              "início desconto": "12/2020",
+              "fim desconto": "08/2020",
+              "qtde parcelas": "84"
+            },
+            "valor": {
+              "parcela": "R$123,80",
+              "emprestado": "R$10.399,20",
+              "liberado": "R$5.020,28"
+            },
+            "data": {
+              "exclusão": "04/09/20",
+              "origem da exclusão": "Exclusão Banco"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "page": 5,
+      "data": {
+        "contratos_excluidos_encerrados": [
+          {
+            "contrato": "206993556",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A",
+            "situacao": "Excluído",
+            "origem_da_verificacao": "Averbação nova",
+            "data_inclusao": "03/09/20",
+            "competencia_inicio_desconto": "09/2020",
+            "competencia_fim_desconto": "08/2025",
+            "qtde_parcelas": "55",
+            "valor_parcela": "R$63,09",
+            "valor_emprestado": "R$3.469,95",
+            "valor_liberado": "R$2.190,97",
+            "data_exclusao": "05/09/20",
+            "origem_da_exclusao": "Exclusão Banco"
+          },
+          {
+            "contrato": "207328190",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A",
+            "situacao": "Excluído",
+            "origem_da_verificacao": "Averbação nova",
+            "data_inclusao": "05/09/20",
+            "competencia_inicio_desconto": "10/2020",
+            "competencia_fim_desconto": "11/2020",
+            "qtde_parcelas": "84",
+            "valor_parcela": "R$45,00",
+            "valor_emprestado": "R$3.780,00",
+            "valor_liberado": "R$2.241,48",
+            "data_exclusao": "07/12/20",
+            "origem_da_exclusao": "Exclusão Banco"
+          },
+          {
+            "contrato": "207361235",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A",
+            "situacao": "Excluído",
+            "origem_da_verificacao": "Averbação nova",
+            "data_inclusao": "09/09/20",
+            "competencia_inicio_desconto": "10/2020",
+            "competencia_fim_desconto": "11/2020",
+            "qtde_parcelas": "84",
+            "valor_parcela": "R$141,91",
+            "valor_emprestado": "R$11.920,44",
+            "valor_liberado": "R$6.004,58",
+            "data_exclusao": "07/12/20",
+            "origem_da_exclusao": "Exclusão Banco"
+          },
+          {
+            "contrato": "0100187344273",
+            "banco": "626 - BANCO C6 CONSIGNADO S.A",
+            "situacao": "Excluído",
+            "origem_da_verificacao": "Averbação nova",
+            "data_inclusao": "08/04/21",
+            "competencia_inicio_desconto": "05/2021",
+            "competencia_fim_desconto": "04/2021",
+            "qtde_parcelas": "84",
+            "valor_parcela": "R$105,00",
+            "valor_emprestado": "R$0,00",
+            "valor_liberado": "R$4.387,80",
+            "data_exclusao": "18/04/21",
+            "origem_da_exclusao": "Exclusão Banco"
+          },
+          {
+            "contrato": "219134824",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A",
+            "situacao": "Excluído",
+            "origem_da_verificacao": "Averbação nova",
+            "data_inclusao": "24/04/21",
+            "competencia_inicio_desconto": "05/2021",
+            "competencia_fim_desconto": "04/2028",
+            "qtde_parcelas": "84",
+            "valor_parcela": "R$72,66",
+            "valor_emprestado": "R$6.103,44",
+            "valor_liberado": "R$2.999,86",
+            "data_exclusao": "28/06/21",
+            "origem_da_exclusao": "Exclusão por troca de titularidade"
+          },
+          {
+            "contrato": "219563708",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A",
+            "situacao": "Excluído",
+            "origem_da_verificacao": "Averbação nova",
+            "data_inclusao": "04/05/21",
+            "competencia_inicio_desconto": "05/2021",
+            "competencia_fim_desconto": "04/2028",
+            "qtde_parcelas": "84",
+            "valor_parcela": "R$829,15",
+            "valor_emprestado": "R$69.648,60",
+            "valor_liberado": "R$40.522,90",
+            "data_exclusao": "28/06/21",
+            "origem_da_exclusao": "Exclusão por troca de titularidade"
+          },
+          {
+            "contrato": "219134824",
+            "banco": "033 - BANCO SANTANDER",
+            "situacao": "Excluído",
+            "origem_da_verificacao": "Migrado do contrato 219134824 CBC: 955",
+            "data_inclusao": "28/06/21",
+            "competencia_inicio_desconto": "05/2022",
+            "competencia_fim_desconto": "04/2028",
+            "qtde_parcelas": "84",
+            "valor_parcela": "R$72,66",
+            "valor_emprestado": "R$6.103,44",
+            "valor_liberado": "R$2.999,86",
+            "data_exclusao": "06/06/22",
+            "origem_da_exclusao": "Exclusão por portabilidade"
+          },
+          {
+            "contrato": "0000000001137397",
+            "banco": "041 - BANCO DO ESTADO DO RIO GRANDE DO SUL",
+            "situacao": "Excluído",
+            "origem_da_verificacao": "Averbação por portabilidade",
+            "data_inclusao": "06/06/22",
+            "competencia_inicio_desconto": "05/2022",
+            "competencia_fim_desconto": "05/2022",
+            "qtde_parcelas": "72",
+            "valor_parcela": "R$69,20",
+            "valor_emprestado": "R$2.954,10",
+            "valor_liberado": "R$0,00",
+            "cet_anual": "19,92",
+            "taxa_juros_anual": "1,50",
+            "valor_pago": "R$2.954,10",
+            "data_exclusao": "07/06/22",
+            "origem_da_exclusao": "Exclusão por refinanciamento"
+          }
+        ]
+      }
+    },
+    {
+      "page": 6,
+      "data": {
+        "contratos": [
+          {
+            "contrato": "213743489",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "04/12/20",
+            "competência início desconto": "01/2021",
+            "competência fim desconto": "04/2021",
+            "qtde parcelas": "84",
+            "parcela": "R$61,15",
+            "emprestado": "R$5.136,60",
+            "liberado": "R$2.499,88",
+            "exclusão": "04/05/21",
+            "motivo da exclusão": "Exclusão Banco"
+          },
+          {
+            "contrato": "213808785",
+            "banco": "955 - BANCO OLE CONSIGNADO S.A",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "07/12/20",
+            "competência início desconto": "01/2021",
+            "competência fim desconto": "04/2021",
+            "qtde parcelas": "84",
+            "parcela": "R$768,00",
+            "emprestado": "R$64.512,00",
+            "liberado": "R$37.113,23",
+            "exclusão": "04/05/21",
+            "motivo da exclusão": "Exclusão Banco"
+          },
+          {
+            "contrato": "509346586/21",
+            "banco": "707 - BANCO DAYCOVAL S.A",
+            "situação": "Excluído",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "30/04/21",
+            "competência início desconto": "08/2021",
+            "competência fim desconto": "04/2021",
+            "qtde parcelas": "84",
+            "parcela": "R$19,00",
+            "emprestado": "R$0,00",
+            "liberado": "R$746,68",
+            "exclusão": "04/05/21",
+            "motivo da exclusão": "Exclusão Banco"
+          },
+          {
+            "contrato": "113221110000100386",
+            "banco": "104 - CAIXA ECONOMICA FEDERAL",
+            "situação": "Encerrado",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "01/06/18",
+            "competência início desconto": "02/2011",
+            "competência fim desconto": "01/2016",
+            "qtde parcelas": "60",
+            "parcela": "R$60,42",
+            "emprestado": "R$3.625,20",
+            "liberado": "R$2.002,66"
+          },
+          {
+            "contrato": "113221110000091107",
+            "banco": "104 - CAIXA ECONOMICA FEDERAL",
+            "situação": "Encerrado",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "26/06/20",
+            "competência início desconto": "09/2010",
+            "competência fim desconto": "07/2014",
+            "qtde parcelas": "60",
+            "parcela": "R$121,99",
+            "emprestado": "R$4.060,00",
+            "exclusão": "26/07/14"
+          },
+          {
+            "contrato": "1132211100002544F21",
+            "banco": "104 - CAIXA ECONOMICA FEDERAL",
+            "situação": "Encerrado",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "26/06/20",
+            "competência início desconto": "08/2014",
+            "competência fim desconto": "03/2016",
+            "qtde parcelas": "60",
+            "parcela": "R$121,69",
+            "emprestado": "R$4.390,00",
+            "exclusão": "11/03/16"
+          },
+          {
+            "contrato": "1132211100001217F07",
+            "banco": "104 - CAIXA ECONOMICA FEDERAL",
+            "situação": "Encerrado",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "30/06/20",
+            "competência início desconto": "09/2011",
+            "competência fim desconto": "03/2016",
+            "qtde parcelas": "60",
+            "parcela": "R$178,91",
+            "emprestado": "R$5.704,68",
+            "exclusão": "10/03/16"
+          },
+          {
+            "contrato": "1132211100002409F86",
+            "banco": "104 - CAIXA ECONOMICA FEDERAL",
+            "situação": "Encerrado",
+            "origem da averbação": "Averbação nova",
+            "data inclusão": "02/07/20",
+            "competência início desconto": "04/2014",
+            "competência fim desconto": "03/2016",
+            "qtde parcelas": "48",
+            "parcela": "R$88,26",
+            "emprestado": "R$2.800,00",
+            "exclusão": "11/03/16"
+          }
+        ],
+        "data": "26/03/2024 13:43:47"
+      }
+    },
+    {
+      "page": 7,
+      "data": {
+        "contratos_excluidos_encerrados": [
+          {
+            "contrato": "113221100300093584",
+            "banco": "104 - CAIXA ECONOMICA FEDERAL",
+            "situacao": "Encerrado",
+            "origem_da_verbacao": "Averbação nova",
+            "data_inclusao": "01/06/18",
+            "competencia": {
+              "inicio_de_desconto": "11/2010",
+              "fim_de_desconto": "10/2015",
+              "qtde_parcelas": "60"
+            },
+            "valor": {
+              "parcela": "R$108,41",
+              "emprestado": "R$6.504,60",
+              "liberado": "R$3.592,99",
+              "iof": "",
+              "cet_mensal": "",
+              "cet_anual": "",
+              "taxa_juros_mensal": "",
+              "taxa_juros_anual": "",
+              "valor_pago": ""
+            },
+            "data": {
+              "primeiro_desconto": "",
+              "suspens_banco": "",
+              "suspens_inss": "",
+              "reativ_banco": "",
+              "reativ_inss": "",
+              "exclusao": "",
+              "origem_da_exclusao": "",
+              "motivo_da_exclusao": ""
+            }
+          }
+        ],
+        "observacao": "Valor pago a título de dívida do cliente (refinanciamento e portabilidade)",
+        "data_hora": "26/03/2024 13:43:47",
+        "pagina": "7 / 11"
+      }
+    },
+    {
+      "page": 8,
+      "data": {
+        "contratos_ativos_suspensos": [
+          {
+            "contrato": "15103875",
+            "tipo": "Reserva de Margem para Cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Ativo",
+            "origem_da_averbação": "Averbação nova",
+            "data_inclusão": "07/06/19",
+            "limite_de_cartão": "R$1.349,00",
+            "reservado_atualizado": "R$122,81",
+            "suspensão_banco": "",
+            "suspensão_inss": "",
+            "reativação_banco": "",
+            "reativação_inss": ""
+          }
+        ],
+        "descontos_de_cartão": [
+          {
+            "contrato": "148459274000102022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "10/2022",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mês": "R$136,01",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000060220",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "06/2020",
+            "saldo_devedor": "R$3.559,84",
+            "desconto": "R$117,59",
+            "utilizado_no_mês": "R$0,00",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000070220",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "07/2020",
+            "saldo_devedor": "R$3.541,56",
+            "desconto": "R$117,59",
+            "utilizado_no_mês": "R$0,00",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000102021",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "10/2021",
+            "saldo_devedor": "R$4.081,64",
+            "desconto": "R$134,59",
+            "utilizado_no_mês": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000020220",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "02/2020",
+            "saldo_devedor": "R$3.185,95",
+            "desconto": "R$117,59",
+            "utilizado_no_mês": "R$0,00",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000030220",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "03/2020",
+            "saldo_devedor": "R$3.175,63",
+            "desconto": "R$117,59",
+            "utilizado_no_mês": "R$0,00",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000030320",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "03/2021",
+            "saldo_devedor": "R$3.931,10",
+            "desconto": "R$128,00",
+            "utilizado_no_mês": "R$306,43",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000070221",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "07/2022",
+            "saldo_devedor": "R$4.460,29",
+            "desconto": "R$146,75",
+            "utilizado_no_mês": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000040221",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "04/2021",
+            "saldo_devedor": "R$3.912,19",
+            "desconto": "R$128,00",
+            "utilizado_no_mês": "R$0,01",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000120221",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situação": "Encerrado",
+            "competência": "12/2021",
+            "saldo_devedor": "R$4.155,51",
+            "desconto": "R$134,59",
+            "utilizado_no_mês": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          }
+        ],
+        "data_emissão": "26/03/2024 13:43:47",
+        "página": "8 / 11"
+      }
+    },
+    {
+      "page": 9,
+      "data": {
+        "descontos_cartao": [
+          {
+            "contrato": "148459274000042022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "04/2022",
+            "saldo_devedor": "R$4.423,06",
+            "desconto": "R$134,59",
+            "utilizado_no_mes": "R$0,01",
+            "iof": "R$0,00",
+            "cet_mensal": "3,30",
+            "cet_anual": "48,44",
+            "taxa_juros_mensal": "2,67",
+            "taxa_juros_anual": "37,19"
+          },
+          {
+            "contrato": "15103875318022023",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "02/2023",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "R$0,00",
+            "cet_mensal": "3,30",
+            "cet_anual": "48,44",
+            "taxa_juros_mensal": "2,67",
+            "taxa_juros_anual": "37,19"
+          },
+          {
+            "contrato": "15103875318012024",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "01/2024",
+            "saldo_devedor": "R$1.999,65",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "R$0,00",
+            "cet_mensal": "3,36",
+            "cet_anual": "49,49",
+            "taxa_juros_mensal": "0,10",
+            "taxa_juros_anual": "1,21"
+          },
+          {
+            "contrato": "15103875318112023",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "11/2023",
+            "saldo_devedor": "R$2.168,16",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "R$0,00",
+            "cet_mensal": "3,36",
+            "cet_anual": "49,49",
+            "taxa_juros_mensal": "0,10",
+            "taxa_juros_anual": "1,21"
+          },
+          {
+            "contrato": "15103875318022024",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "02/2024",
+            "saldo_devedor": "R$1.912,09",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "R$0,00",
+            "cet_mensal": "3,30",
+            "cet_anual": "48,44",
+            "taxa_juros_mensal": "2,67",
+            "taxa_juros_anual": "37,19"
+          },
+          {
+            "contrato": "15103875318122022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "12/2022",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01"
+          },
+          {
+            "contrato": "15103875318042024",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Ativo",
+            "competencia": "04/2024",
+            "saldo_devedor": "R$1.730,09",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "R$0,00",
+            "cet_mensal": "3,18",
+            "cet_anual": "46,36",
+            "taxa_juros_mensal": "2,55",
+            "taxa_juros_anual": "35,27"
+          },
+          {
+            "contrato": "14845927400012020",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "12/2020",
+            "saldo_devedor": "R$3.667,67",
+            "desconto": "R$121,06",
+            "utilizado_no_mes": "R$0,00"
+          },
+          {
+            "contrato": "148459274000082021",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "08/2021",
+            "saldo_devedor": "R$4.014,15",
+            "desconto": "R$134,59",
+            "utilizado_no_mes": "R$29,90"
+          },
+          {
+            "contrato": "15103875318052023",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "05/2023",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01"
+          },
+          {
+            "contrato": "15103875318062023",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "06/2023",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01"
+          },
+          {
+            "contrato": "148459274000102019",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "10/2019",
+            "saldo_devedor": "R$3.167,97",
+            "desconto": "R$117,34",
+            "utilizado_no_mes": "R$3.167,97"
+          },
+          {
+            "contrato": "15103875318012023",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "01/2023",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01"
+          },
+          {
+            "contrato": "15103875318102023",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "10/2023",
+            "saldo_devedor": "R$2.249,23",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "R$0,00",
+            "cet_mensal": "3,46",
+            "cet_anual": "51,26",
+            "taxa_juros_mensal": "0,13",
+            "taxa_juros_anual": "1,57"
+          },
+          {
+            "contrato": "148459274000102020",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "10/2020",
+            "saldo_devedor": "R$3.706,87",
+            "desconto": "R$121,06",
+            "utilizado_no_mes": "R$0,00"
+          },
+          {
+            "contrato": "148459274000012020",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "01/2020",
+            "saldo_devedor": "R$3.195,92",
+            "desconto": "R$117,59",
+            "utilizado_no_mes": "R$0,00"
+          },
+          {
+            "contrato": "15103875318082023",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "08/2023",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01"
+          },
+          {
+            "contrato": "148459274000012021",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "01/2021",
+            "saldo_devedor": "R$3.649,55",
+            "desconto": "R$121,06",
+            "utilizado_no_mes": "R$3,91"
+          },
+          {
+            "contrato": "148459274000092020",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "09/2020",
+            "saldo_devedor": "R$3.500,20",
+            "desconto": "R$117,59",
+            "utilizado_no_mes": "R$0,00"
+          }
+        ],
+        "data_emissao": "26/03/2024 13:43:47",
+        "pagina": "9 / 11"
+      }
+    },
+    {
+      "page": 10,
+      "data": {
+        "descontos_de_cartao": [
+          {
+            "contrato": "148459274000202021",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "02/2021",
+            "saldo_devedor": "R$3.634,76",
+            "desconto": "R$121,06",
+            "utilizado_no_mes": "R$2,69",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000072021",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "07/2021",
+            "saldo_devedor": "R$3.985,68",
+            "desconto": "R$134,59",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000112019",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "11/2019",
+            "saldo_devedor": "R$3.202,23",
+            "desconto": "R$117,59",
+            "utilizado_no_mes": "R$5,00",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000122019",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "12/2019",
+            "saldo_devedor": "R$3.209,03",
+            "desconto": "R$117,59",
+            "utilizado_no_mes": "R$5,00",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000082022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "08/2022",
+            "saldo_devedor": "R$4.499,54",
+            "desconto": "R$146,75",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000112020",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "11/2020",
+            "saldo_devedor": "R$3.685,90",
+            "desconto": "R$121,06",
+            "utilizado_no_mes": "R$0,00",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000112022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "11/2022",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "1510387531803223",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "03/2023",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000052021",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "05/2021",
+            "saldo_devedor": "R$3.920,85",
+            "desconto": "R$128,37",
+            "utilizado_no_mes": "R$0,01",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000012022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "01/2022",
+            "saldo_devedor": "R$4.192,70",
+            "desconto": "R$134,59",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "1510387531804223",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "04/2023",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000112021",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "11/2021",
+            "saldo_devedor": "R$4.115,39",
+            "desconto": "R$134,59",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "1510387531803224",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "03/2024",
+            "saldo_devedor": "R$1.822,26",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "R$0,00",
+            "cet_mensal": "3,24",
+            "cet_anual": "47,40",
+            "taxa_de_juros_mensal": "2,61",
+            "taxa_de_juros_anual": "36,23"
+          },
+          {
+            "contrato": "148459274000092021",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "09/2021",
+            "saldo_devedor": "R$4.047,38",
+            "desconto": "R$134,59",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "1510387531803221",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "12/2023",
+            "saldo_devedor": "R$2.084,99",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "R$0,00",
+            "cet_mensal": "3,36",
+            "cet_anual": "49,49",
+            "taxa_de_juros_mensal": "2,70",
+            "taxa_de_juros_anual": "37,67"
+          },
+          {
+            "contrato": "148459274000062021",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "06/2021",
+            "saldo_devedor": "R$3.954,41",
+            "desconto": "R$134,59",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000032022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "03/2022",
+            "saldo_devedor": "R$4.290,87",
+            "desconto": "R$134,59",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000062022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "06/2022",
+            "saldo_devedor": "R$4.417,78",
+            "desconto": "R$146,75",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000042020",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "04/2020",
+            "saldo_devedor": "R$3.158,09",
+            "desconto": "R$117,59",
+            "utilizado_no_mes": "R$0,00",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_de_juros_mensal": "",
+            "taxa_de_juros_anual": ""
+          }
+        ],
+        "data_hora": "26/03/2024 13:43:47",
+        "pagina": "10 / 11"
+      }
+    },
+    {
+      "page": 11,
+      "data": {
+        "descontos_cartao": [
+          {
+            "contrato": "148459274000092022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "09/2022",
+            "saldo_devedor": "R$125,27",
+            "desconto": "R$125,27",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_juros_mensal": "",
+            "taxa_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000022022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "02/2022",
+            "saldo_devedor": "R$4.235,23",
+            "desconto": "R$134,59",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_juros_mensal": "",
+            "taxa_juros_anual": ""
+          },
+          {
+            "contrato": "15103875318072023",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "07/2023",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_juros_mensal": "",
+            "taxa_juros_anual": ""
+          },
+          {
+            "contrato": "15103875318092023",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "09/2023",
+            "saldo_devedor": "R$136,01",
+            "desconto": "R$136,01",
+            "utilizado_no_mes": "R$136,01",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_juros_mensal": "",
+            "taxa_juros_anual": ""
+          },
+          {
+            "contrato": "148459274000052022",
+            "tipo": "Desconto de cartão (RMC)",
+            "banco": "318 - BANCO BMG S A",
+            "situacao": "Encerrado",
+            "competencia": "05/2022",
+            "saldo_devedor": "R$4.376,79",
+            "desconto": "R$146,75",
+            "utilizado_no_mes": "R$29,90",
+            "iof": "",
+            "cet_mensal": "",
+            "cet_anual": "",
+            "taxa_juros_mensal": "",
+            "taxa_juros_anual": ""
+          }
+        ],
+        "data_emissao": "26/03/2024 13:43:47",
+        "pagina": "11 / 11"
+      }
+    }
+  ],
+  "result": {
+    "metadata": {
+      "fonte": "INSS",
+      "documento": "Historico de Emprestimo Consignado",
+      "total_paginas": 11,
+      "data_processamento": "2025-08-29T21:40:02.783Z"
+    },
+    "beneficiario": {
+      "nome": "LUISA MESQUITA DOS SANTOS",
+      "aposentadoria": "APOSENTADORIA POR TEMPO DE CONTRIBUICAO",
+      "numero_beneficio": "148.459.274-0",
+      "situacao": "ATIVO",
+      "pago_em": "CAIXA ECONOMICA FEDERAL",
+      "meio": "Conta Corrente",
+      "agencia": "3221",
+      "conta_corrente": "5820316823",
+      "nao_possui_procurador": true,
+      "nao_possui_representante_legal": true,
+      "nao_e_pensao_alimenticia": true,
+      "liberado_para_emprestimo": true,
+      "elegivel_para_emprestimos": true
+    },
+    "quantitativo_emprestimos": {
+      "ativos": 6,
+      "suspensos": 0,
+      "reservados_portabilidade": 0,
+      "reservados_refinanciamento": 0
+    },
+    "autenticidade": {
+      "url": "https://meu.inss.gov.br/central/#/autenticidade",
+      "codigo": "240326HKQCHM6I8XATQ261"
+    },
+    "data_emissao": "26/03/2024 13:43:47",
+    "pagina": "11 / 11",
+    "valores_do_beneficio": {
+      "base_de_calculo": "R$3.334,86",
+      "maximo_de_comprometimento_permitido": "R$1.500,69",
+      "total_comprometido": "R$1.315,70",
+      "margem_extrapolada": "R$0,00"
+    },
+    "valores_por_modalidade": {
+      "emprestimos": {
+        "margem_consignavel": "R$1.167,20",
+        "margem_utilizada": "R$1.148,96",
+        "margem_reservada": "R$0,00",
+        "margem_disponivel": "R$18,24",
+        "margem_extrapolada": "R$0,00"
+      },
+      "rmc": {
+        "margem_consignavel": "R$166,74",
+        "margem_utilizada": "R$166,74",
+        "margem_reservada": "-",
+        "margem_disponivel": "R$0,00",
+        "margem_extrapolada": "R$0,00"
+      },
+      "rcc": {
+        "margem_consignavel": "R$166,74",
+        "margem_utilizada": "R$0,00",
+        "margem_reservada": "-",
+        "margem_disponivel": "R$166,74",
+        "margem_extrapolada": "R$0,00"
+      }
+    },
+    "data": "26/03/2024 13:43:47",
+    "contratos": [
+      {
+        "contrato": "816624588",
+        "banco": "394 - BANCO BRADESCO FINANCIAMENTOS S.A",
+        "situacao": "Ativo",
+        "origem": "Averbação nova",
+        "data_inclusao": "26/05/2021",
+        "competencia": {
+          "inicio_desconto": "06/2021",
+          "fim_desconto": "05/2028"
+        },
+        "qtde_parcelas": "84",
+        "parcela": "R$40,30",
+        "valor": {
+          "emprestado": "R$1.710,69",
+          "liberado": "R$1.654,44"
+        }
+      },
+      {
+        "contrato": "219653708",
+        "banco": "033 - BANCO SANTANDER",
+        "situacao": "Ativo",
+        "origem": "Migrado do contrato 219653708 CBC: 955",
+        "data_inclusao": "28/06/2021",
+        "competencia": {
+          "inicio_desconto": "05/2021",
+          "fim_desconto": "04/2028"
+        },
+        "qtde_parcelas": "84",
+        "parcela": "R$829,15",
+        "valor": {
+          "emprestado": "R$69.648,60",
+          "liberado": "R$40.522,90"
+        }
+      },
+      {
+        "contrato": "00000000000000011458024",
+        "banco": "041 - BANCO DO ESTADO DO RIO GRANDE DO SUL S.A",
+        "situacao": "Ativo",
+        "origem": "Averbação por Refinanciamento",
+        "data_inclusao": "07/06/2022",
+        "competencia": {
+          "inicio_desconto": "07/2022",
+          "fim_desconto": "06/2029"
+        },
+        "qtde_parcelas": "84",
+        "parcela": "R$69,20",
+        "valor": {
+          "emprestado": "R$3.283,96"
+        },
+        "iof": "R$10,91"
+      },
+      {
+        "contrato": "010114431374",
+        "banco": "626 - BANCO C6 CONSIGNADO S.A",
+        "situacao": "Ativo",
+        "origem": "Averbação nova",
+        "data_inclusao": "12/04/2022",
+        "competencia": {
+          "inicio_desconto": "05/2022",
+          "fim_desconto": "04/2029"
+        },
+        "qtde_parcelas": "84",
+        "parcela": "R$85,15",
+        "valor": {
+          "emprestado": "R$7.152,60",
+          "liberado": "R$3.119,00"
+        },
+        "iof": "R$97,66"
+      },
+      {
+        "contrato": "269457350",
+        "banco": "033 - BANCO SANTANDER",
+        "situacao": "Ativo",
+        "origem": "Averbação nova",
+        "data_inclusao": "02/05/2023",
+        "competencia": {
+          "inicio_desconto": "05/2023",
+          "fim_desconto": "04/2030"
+        },
+        "qtde_parcelas": "84",
+        "parcela": "R$57,01",
+        "valor": {
+          "emprestado": "R$2.230,96",
+          "liberado": "R$2.230,96"
+        }
+      },
+      {
+        "contrato": "285667070",
+        "banco": "033 - BANCO SANTANDER",
+        "situacao": "Ativo",
+        "origem": "Averbação nova",
+        "data_inclusao": "31/01/2024",
+        "competencia": {
+          "inicio_desconto": "02/2024",
+          "fim_desconto": "01/2031"
+        },
+        "qtde_parcelas": "84",
+        "parcela": "R$68,15",
+        "valor": {
+          "emprestado": "R$2.941,04",
+          "liberado": "R$2.851,78"
+        },
+        "iof": "R$89,26",
+        "cet_anual": "1,88",
+        "taxa_juros_mensal": "25,06",
+        "taxa_juros_anual": "1,76",
+        "valor_pago": "23,28",
+        "primeiro_desconto": "08/03/24"
+      },
+      {
+        "contrato": "190718955",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A.",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "18/02/20",
+        "competência": {
+          "início desconto": "03/2020",
+          "fim desconto": "11/2020",
+          "qtde parcelas": "72"
+        },
+        "valor": {
+          "parcela": "R$31,09",
+          "emprestado": "R$2.238,48",
+          "liberado": "R$1.100,98"
+        },
+        "data": {
+          "exclusão": "07/12/20",
+          "origem da exclusão": "Exclusão Banco"
+        }
+      },
+      {
+        "contrato": "205229089",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A.",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "17/08/20",
+        "competência": {
+          "início desconto": "09/2020",
+          "fim desconto": "08/2020",
+          "qtde parcelas": "60"
+        },
+        "valor": {
+          "parcela": "R$673,81",
+          "emprestado": "R$40.428,60",
+          "liberado": "R$25.961,35"
+        },
+        "data": {
+          "exclusão": "24/08/20",
+          "origem da exclusão": "Exclusão Banco"
+        }
+      },
+      {
+        "contrato": "113221110000455989",
+        "banco": "104 - CAIXA ECONOMICA FEDERAL",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "23/06/19",
+        "competência": {
+          "início desconto": "07/2019",
+          "fim desconto": "08/2020",
+          "qtde parcelas": "72"
+        },
+        "valor": {
+          "parcela": "R$673,81",
+          "emprestado": "R$48.514,32",
+          "liberado": "R$27.100,00"
+        },
+        "data": {
+          "exclusão": "09/08/20",
+          "origem da exclusão": "Exclusão Banco"
+        }
+      },
+      {
+        "contrato": "000011133686",
+        "banco": "422 - BANCO SAFRA S.A.",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "25/07/19",
+        "competência": {
+          "início desconto": "08/2019",
+          "fim desconto": "07/2019",
+          "qtde parcelas": "72"
+        },
+        "valor": {
+          "parcela": "R$63,10",
+          "emprestado": "R$4.543,20",
+          "liberado": "R$2.249,90"
+        },
+        "data": {
+          "exclusão": "24/07/19",
+          "origem da exclusão": "Exclusão Banco"
+        }
+      },
+      {
+        "contrato": "592175229",
+        "banco": "341 - BANCO ITAU CONSIGNADO S.A.",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "25/07/19",
+        "competência": {
+          "início desconto": "08/2019",
+          "fim desconto": "08/2020",
+          "qtde parcelas": "72"
+        },
+        "valor": {
+          "parcela": "R$63,10",
+          "emprestado": "R$4.543,20",
+          "liberado": "R$2.249,55"
+        },
+        "data": {
+          "exclusão": "03/09/20",
+          "origem da exclusão": "Exclusão Banco"
+        }
+      },
+      {
+        "contrato": "188890359",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A.",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "08/02/20",
+        "competência": {
+          "início desconto": "03/2020",
+          "fim desconto": "02/2020",
+          "qtde parcelas": "72"
+        },
+        "valor": {
+          "parcela": "R$31,09",
+          "emprestado": "R$2.238,48",
+          "liberado": "R$1.096,37"
+        },
+        "data": {
+          "exclusão": "18/02/20",
+          "origem da exclusão": "Exclusão Banco"
+        }
+      },
+      {
+        "contrato": "206182027",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A.",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "24/08/20",
+        "competência": {
+          "início desconto": "10/2020",
+          "fim desconto": "11/2020",
+          "qtde parcelas": "84"
+        },
+        "valor": {
+          "parcela": "R$550,00",
+          "emprestado": "R$46.200,00",
+          "liberado": "R$26.648,12"
+        },
+        "data": {
+          "exclusão": "07/12/20",
+          "origem da exclusão": "Exclusão Banco"
+        }
+      },
+      {
+        "contrato": "620721537",
+        "banco": "341 - BANCO ITAU CONSIGNADO S.A.",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "26/08/20",
+        "competência": {
+          "início desconto": "12/2020",
+          "fim desconto": "08/2020",
+          "qtde parcelas": "84"
+        },
+        "valor": {
+          "parcela": "R$123,80",
+          "emprestado": "R$10.399,20",
+          "liberado": "R$5.020,28"
+        },
+        "data": {
+          "exclusão": "04/09/20",
+          "origem da exclusão": "Exclusão Banco"
+        }
+      },
+      {
+        "contrato": "213743489",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "04/12/20",
+        "competência início desconto": "01/2021",
+        "competência fim desconto": "04/2021",
+        "qtde parcelas": "84",
+        "parcela": "R$61,15",
+        "emprestado": "R$5.136,60",
+        "liberado": "R$2.499,88",
+        "exclusão": "04/05/21",
+        "motivo da exclusão": "Exclusão Banco"
+      },
+      {
+        "contrato": "213808785",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "07/12/20",
+        "competência início desconto": "01/2021",
+        "competência fim desconto": "04/2021",
+        "qtde parcelas": "84",
+        "parcela": "R$768,00",
+        "emprestado": "R$64.512,00",
+        "liberado": "R$37.113,23",
+        "exclusão": "04/05/21",
+        "motivo da exclusão": "Exclusão Banco"
+      },
+      {
+        "contrato": "509346586/21",
+        "banco": "707 - BANCO DAYCOVAL S.A",
+        "situação": "Excluído",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "30/04/21",
+        "competência início desconto": "08/2021",
+        "competência fim desconto": "04/2021",
+        "qtde parcelas": "84",
+        "parcela": "R$19,00",
+        "emprestado": "R$0,00",
+        "liberado": "R$746,68",
+        "exclusão": "04/05/21",
+        "motivo da exclusão": "Exclusão Banco"
+      },
+      {
+        "contrato": "113221110000100386",
+        "banco": "104 - CAIXA ECONOMICA FEDERAL",
+        "situação": "Encerrado",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "01/06/18",
+        "competência início desconto": "02/2011",
+        "competência fim desconto": "01/2016",
+        "qtde parcelas": "60",
+        "parcela": "R$60,42",
+        "emprestado": "R$3.625,20",
+        "liberado": "R$2.002,66"
+      },
+      {
+        "contrato": "113221110000091107",
+        "banco": "104 - CAIXA ECONOMICA FEDERAL",
+        "situação": "Encerrado",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "26/06/20",
+        "competência início desconto": "09/2010",
+        "competência fim desconto": "07/2014",
+        "qtde parcelas": "60",
+        "parcela": "R$121,99",
+        "emprestado": "R$4.060,00",
+        "exclusão": "26/07/14"
+      },
+      {
+        "contrato": "1132211100002544F21",
+        "banco": "104 - CAIXA ECONOMICA FEDERAL",
+        "situação": "Encerrado",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "26/06/20",
+        "competência início desconto": "08/2014",
+        "competência fim desconto": "03/2016",
+        "qtde parcelas": "60",
+        "parcela": "R$121,69",
+        "emprestado": "R$4.390,00",
+        "exclusão": "11/03/16"
+      },
+      {
+        "contrato": "1132211100001217F07",
+        "banco": "104 - CAIXA ECONOMICA FEDERAL",
+        "situação": "Encerrado",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "30/06/20",
+        "competência início desconto": "09/2011",
+        "competência fim desconto": "03/2016",
+        "qtde parcelas": "60",
+        "parcela": "R$178,91",
+        "emprestado": "R$5.704,68",
+        "exclusão": "10/03/16"
+      },
+      {
+        "contrato": "1132211100002409F86",
+        "banco": "104 - CAIXA ECONOMICA FEDERAL",
+        "situação": "Encerrado",
+        "origem da averbação": "Averbação nova",
+        "data inclusão": "02/07/20",
+        "competência início desconto": "04/2014",
+        "competência fim desconto": "03/2016",
+        "qtde parcelas": "48",
+        "parcela": "R$88,26",
+        "emprestado": "R$2.800,00",
+        "exclusão": "11/03/16"
+      }
+    ],
+    "contratos_excluidos_encerrados": [
+      {
+        "contrato": "206993556",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A",
+        "situacao": "Excluído",
+        "origem_da_verificacao": "Averbação nova",
+        "data_inclusao": "03/09/20",
+        "competencia_inicio_desconto": "09/2020",
+        "competencia_fim_desconto": "08/2025",
+        "qtde_parcelas": "55",
+        "valor_parcela": "R$63,09",
+        "valor_emprestado": "R$3.469,95",
+        "valor_liberado": "R$2.190,97",
+        "data_exclusao": "05/09/20",
+        "origem_da_exclusao": "Exclusão Banco"
+      },
+      {
+        "contrato": "207328190",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A",
+        "situacao": "Excluído",
+        "origem_da_verificacao": "Averbação nova",
+        "data_inclusao": "05/09/20",
+        "competencia_inicio_desconto": "10/2020",
+        "competencia_fim_desconto": "11/2020",
+        "qtde_parcelas": "84",
+        "valor_parcela": "R$45,00",
+        "valor_emprestado": "R$3.780,00",
+        "valor_liberado": "R$2.241,48",
+        "data_exclusao": "07/12/20",
+        "origem_da_exclusao": "Exclusão Banco"
+      },
+      {
+        "contrato": "207361235",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A",
+        "situacao": "Excluído",
+        "origem_da_verificacao": "Averbação nova",
+        "data_inclusao": "09/09/20",
+        "competencia_inicio_desconto": "10/2020",
+        "competencia_fim_desconto": "11/2020",
+        "qtde_parcelas": "84",
+        "valor_parcela": "R$141,91",
+        "valor_emprestado": "R$11.920,44",
+        "valor_liberado": "R$6.004,58",
+        "data_exclusao": "07/12/20",
+        "origem_da_exclusao": "Exclusão Banco"
+      },
+      {
+        "contrato": "0100187344273",
+        "banco": "626 - BANCO C6 CONSIGNADO S.A",
+        "situacao": "Excluído",
+        "origem_da_verificacao": "Averbação nova",
+        "data_inclusao": "08/04/21",
+        "competencia_inicio_desconto": "05/2021",
+        "competencia_fim_desconto": "04/2021",
+        "qtde_parcelas": "84",
+        "valor_parcela": "R$105,00",
+        "valor_emprestado": "R$0,00",
+        "valor_liberado": "R$4.387,80",
+        "data_exclusao": "18/04/21",
+        "origem_da_exclusao": "Exclusão Banco"
+      },
+      {
+        "contrato": "219134824",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A",
+        "situacao": "Excluído",
+        "origem_da_verificacao": "Averbação nova",
+        "data_inclusao": "24/04/21",
+        "competencia_inicio_desconto": "05/2021",
+        "competencia_fim_desconto": "04/2028",
+        "qtde_parcelas": "84",
+        "valor_parcela": "R$72,66",
+        "valor_emprestado": "R$6.103,44",
+        "valor_liberado": "R$2.999,86",
+        "data_exclusao": "28/06/21",
+        "origem_da_exclusao": "Exclusão por troca de titularidade"
+      },
+      {
+        "contrato": "219563708",
+        "banco": "955 - BANCO OLE CONSIGNADO S.A",
+        "situacao": "Excluído",
+        "origem_da_verificacao": "Averbação nova",
+        "data_inclusao": "04/05/21",
+        "competencia_inicio_desconto": "05/2021",
+        "competencia_fim_desconto": "04/2028",
+        "qtde_parcelas": "84",
+        "valor_parcela": "R$829,15",
+        "valor_emprestado": "R$69.648,60",
+        "valor_liberado": "R$40.522,90",
+        "data_exclusao": "28/06/21",
+        "origem_da_exclusao": "Exclusão por troca de titularidade"
+      },
+      {
+        "contrato": "219134824",
+        "banco": "033 - BANCO SANTANDER",
+        "situacao": "Excluído",
+        "origem_da_verificacao": "Migrado do contrato 219134824 CBC: 955",
+        "data_inclusao": "28/06/21",
+        "competencia_inicio_desconto": "05/2022",
+        "competencia_fim_desconto": "04/2028",
+        "qtde_parcelas": "84",
+        "valor_parcela": "R$72,66",
+        "valor_emprestado": "R$6.103,44",
+        "valor_liberado": "R$2.999,86",
+        "data_exclusao": "06/06/22",
+        "origem_da_exclusao": "Exclusão por portabilidade"
+      },
+      {
+        "contrato": "0000000001137397",
+        "banco": "041 - BANCO DO ESTADO DO RIO GRANDE DO SUL",
+        "situacao": "Excluído",
+        "origem_da_verificacao": "Averbação por portabilidade",
+        "data_inclusao": "06/06/22",
+        "competencia_inicio_desconto": "05/2022",
+        "competencia_fim_desconto": "05/2022",
+        "qtde_parcelas": "72",
+        "valor_parcela": "R$69,20",
+        "valor_emprestado": "R$2.954,10",
+        "valor_liberado": "R$0,00",
+        "cet_anual": "19,92",
+        "taxa_juros_anual": "1,50",
+        "valor_pago": "R$2.954,10",
+        "data_exclusao": "07/06/22",
+        "origem_da_exclusao": "Exclusão por refinanciamento"
+      },
+      {
+        "contrato": "113221100300093584",
+        "banco": "104 - CAIXA ECONOMICA FEDERAL",
+        "situacao": "Encerrado",
+        "origem_da_verbacao": "Averbação nova",
+        "data_inclusao": "01/06/18",
+        "competencia": {
+          "inicio_de_desconto": "11/2010",
+          "fim_de_desconto": "10/2015",
+          "qtde_parcelas": "60"
+        },
+        "valor": {
+          "parcela": "R$108,41",
+          "emprestado": "R$6.504,60",
+          "liberado": "R$3.592,99",
+          "iof": "",
+          "cet_mensal": "",
+          "cet_anual": "",
+          "taxa_juros_mensal": "",
+          "taxa_juros_anual": "",
+          "valor_pago": ""
+        },
+        "data": {
+          "primeiro_desconto": "",
+          "suspens_banco": "",
+          "suspens_inss": "",
+          "reativ_banco": "",
+          "reativ_inss": "",
+          "exclusao": "",
+          "origem_da_exclusao": "",
+          "motivo_da_exclusao": ""
+        }
+      }
+    ],
+    "observacao": "Valor pago a título de dívida do cliente (refinanciamento e portabilidade)",
+    "data_hora": "26/03/2024 13:43:47",
+    "contratos_ativos_suspensos": [
+      {
+        "contrato": "15103875",
+        "tipo": "Reserva de Margem para Cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Ativo",
+        "origem_da_averbação": "Averbação nova",
+        "data_inclusão": "07/06/19",
+        "limite_de_cartão": "R$1.349,00",
+        "reservado_atualizado": "R$122,81",
+        "suspensão_banco": "",
+        "suspensão_inss": "",
+        "reativação_banco": "",
+        "reativação_inss": ""
+      }
+    ],
+    "descontos_de_cartão": [
+      {
+        "contrato": "148459274000102022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "10/2022",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mês": "R$136,01",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000060220",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "06/2020",
+        "saldo_devedor": "R$3.559,84",
+        "desconto": "R$117,59",
+        "utilizado_no_mês": "R$0,00",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000070220",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "07/2020",
+        "saldo_devedor": "R$3.541,56",
+        "desconto": "R$117,59",
+        "utilizado_no_mês": "R$0,00",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000102021",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "10/2021",
+        "saldo_devedor": "R$4.081,64",
+        "desconto": "R$134,59",
+        "utilizado_no_mês": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000020220",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "02/2020",
+        "saldo_devedor": "R$3.185,95",
+        "desconto": "R$117,59",
+        "utilizado_no_mês": "R$0,00",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000030220",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "03/2020",
+        "saldo_devedor": "R$3.175,63",
+        "desconto": "R$117,59",
+        "utilizado_no_mês": "R$0,00",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000030320",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "03/2021",
+        "saldo_devedor": "R$3.931,10",
+        "desconto": "R$128,00",
+        "utilizado_no_mês": "R$306,43",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000070221",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "07/2022",
+        "saldo_devedor": "R$4.460,29",
+        "desconto": "R$146,75",
+        "utilizado_no_mês": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000040221",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "04/2021",
+        "saldo_devedor": "R$3.912,19",
+        "desconto": "R$128,00",
+        "utilizado_no_mês": "R$0,01",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000120221",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situação": "Encerrado",
+        "competência": "12/2021",
+        "saldo_devedor": "R$4.155,51",
+        "desconto": "R$134,59",
+        "utilizado_no_mês": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      }
+    ],
+    "data_emissão": "26/03/2024 13:43:47",
+    "página": "8 / 11",
+    "descontos_cartao": [
+      {
+        "contrato": "148459274000042022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "04/2022",
+        "saldo_devedor": "R$4.423,06",
+        "desconto": "R$134,59",
+        "utilizado_no_mes": "R$0,01",
+        "iof": "R$0,00",
+        "cet_mensal": "3,30",
+        "cet_anual": "48,44",
+        "taxa_juros_mensal": "2,67",
+        "taxa_juros_anual": "37,19"
+      },
+      {
+        "contrato": "15103875318022023",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "02/2023",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "R$0,00",
+        "cet_mensal": "3,30",
+        "cet_anual": "48,44",
+        "taxa_juros_mensal": "2,67",
+        "taxa_juros_anual": "37,19"
+      },
+      {
+        "contrato": "15103875318012024",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "01/2024",
+        "saldo_devedor": "R$1.999,65",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "R$0,00",
+        "cet_mensal": "3,36",
+        "cet_anual": "49,49",
+        "taxa_juros_mensal": "0,10",
+        "taxa_juros_anual": "1,21"
+      },
+      {
+        "contrato": "15103875318112023",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "11/2023",
+        "saldo_devedor": "R$2.168,16",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "R$0,00",
+        "cet_mensal": "3,36",
+        "cet_anual": "49,49",
+        "taxa_juros_mensal": "0,10",
+        "taxa_juros_anual": "1,21"
+      },
+      {
+        "contrato": "15103875318022024",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "02/2024",
+        "saldo_devedor": "R$1.912,09",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "R$0,00",
+        "cet_mensal": "3,30",
+        "cet_anual": "48,44",
+        "taxa_juros_mensal": "2,67",
+        "taxa_juros_anual": "37,19"
+      },
+      {
+        "contrato": "15103875318122022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "12/2022",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01"
+      },
+      {
+        "contrato": "15103875318042024",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Ativo",
+        "competencia": "04/2024",
+        "saldo_devedor": "R$1.730,09",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "R$0,00",
+        "cet_mensal": "3,18",
+        "cet_anual": "46,36",
+        "taxa_juros_mensal": "2,55",
+        "taxa_juros_anual": "35,27"
+      },
+      {
+        "contrato": "14845927400012020",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "12/2020",
+        "saldo_devedor": "R$3.667,67",
+        "desconto": "R$121,06",
+        "utilizado_no_mes": "R$0,00"
+      },
+      {
+        "contrato": "148459274000082021",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "08/2021",
+        "saldo_devedor": "R$4.014,15",
+        "desconto": "R$134,59",
+        "utilizado_no_mes": "R$29,90"
+      },
+      {
+        "contrato": "15103875318052023",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "05/2023",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01"
+      },
+      {
+        "contrato": "15103875318062023",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "06/2023",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01"
+      },
+      {
+        "contrato": "148459274000102019",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "10/2019",
+        "saldo_devedor": "R$3.167,97",
+        "desconto": "R$117,34",
+        "utilizado_no_mes": "R$3.167,97"
+      },
+      {
+        "contrato": "15103875318012023",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "01/2023",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01"
+      },
+      {
+        "contrato": "15103875318102023",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "10/2023",
+        "saldo_devedor": "R$2.249,23",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "R$0,00",
+        "cet_mensal": "3,46",
+        "cet_anual": "51,26",
+        "taxa_juros_mensal": "0,13",
+        "taxa_juros_anual": "1,57"
+      },
+      {
+        "contrato": "148459274000102020",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "10/2020",
+        "saldo_devedor": "R$3.706,87",
+        "desconto": "R$121,06",
+        "utilizado_no_mes": "R$0,00"
+      },
+      {
+        "contrato": "148459274000012020",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "01/2020",
+        "saldo_devedor": "R$3.195,92",
+        "desconto": "R$117,59",
+        "utilizado_no_mes": "R$0,00"
+      },
+      {
+        "contrato": "15103875318082023",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "08/2023",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01"
+      },
+      {
+        "contrato": "148459274000012021",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "01/2021",
+        "saldo_devedor": "R$3.649,55",
+        "desconto": "R$121,06",
+        "utilizado_no_mes": "R$3,91"
+      },
+      {
+        "contrato": "148459274000092020",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "09/2020",
+        "saldo_devedor": "R$3.500,20",
+        "desconto": "R$117,59",
+        "utilizado_no_mes": "R$0,00"
+      },
+      {
+        "contrato": "148459274000092022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "09/2022",
+        "saldo_devedor": "R$125,27",
+        "desconto": "R$125,27",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_juros_mensal": "",
+        "taxa_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000022022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "02/2022",
+        "saldo_devedor": "R$4.235,23",
+        "desconto": "R$134,59",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_juros_mensal": "",
+        "taxa_juros_anual": ""
+      },
+      {
+        "contrato": "15103875318072023",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "07/2023",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_juros_mensal": "",
+        "taxa_juros_anual": ""
+      },
+      {
+        "contrato": "15103875318092023",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "09/2023",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_juros_mensal": "",
+        "taxa_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000052022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "05/2022",
+        "saldo_devedor": "R$4.376,79",
+        "desconto": "R$146,75",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_juros_mensal": "",
+        "taxa_juros_anual": ""
+      }
+    ],
+    "descontos_de_cartao": [
+      {
+        "contrato": "148459274000202021",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "02/2021",
+        "saldo_devedor": "R$3.634,76",
+        "desconto": "R$121,06",
+        "utilizado_no_mes": "R$2,69",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000072021",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "07/2021",
+        "saldo_devedor": "R$3.985,68",
+        "desconto": "R$134,59",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000112019",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "11/2019",
+        "saldo_devedor": "R$3.202,23",
+        "desconto": "R$117,59",
+        "utilizado_no_mes": "R$5,00",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000122019",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "12/2019",
+        "saldo_devedor": "R$3.209,03",
+        "desconto": "R$117,59",
+        "utilizado_no_mes": "R$5,00",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000082022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "08/2022",
+        "saldo_devedor": "R$4.499,54",
+        "desconto": "R$146,75",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000112020",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "11/2020",
+        "saldo_devedor": "R$3.685,90",
+        "desconto": "R$121,06",
+        "utilizado_no_mes": "R$0,00",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000112022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "11/2022",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "1510387531803223",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "03/2023",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000052021",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "05/2021",
+        "saldo_devedor": "R$3.920,85",
+        "desconto": "R$128,37",
+        "utilizado_no_mes": "R$0,01",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000012022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "01/2022",
+        "saldo_devedor": "R$4.192,70",
+        "desconto": "R$134,59",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "1510387531804223",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "04/2023",
+        "saldo_devedor": "R$136,01",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000112021",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "11/2021",
+        "saldo_devedor": "R$4.115,39",
+        "desconto": "R$134,59",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "1510387531803224",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "03/2024",
+        "saldo_devedor": "R$1.822,26",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "R$0,00",
+        "cet_mensal": "3,24",
+        "cet_anual": "47,40",
+        "taxa_de_juros_mensal": "2,61",
+        "taxa_de_juros_anual": "36,23"
+      },
+      {
+        "contrato": "148459274000092021",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "09/2021",
+        "saldo_devedor": "R$4.047,38",
+        "desconto": "R$134,59",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "1510387531803221",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "12/2023",
+        "saldo_devedor": "R$2.084,99",
+        "desconto": "R$136,01",
+        "utilizado_no_mes": "R$136,01",
+        "iof": "R$0,00",
+        "cet_mensal": "3,36",
+        "cet_anual": "49,49",
+        "taxa_de_juros_mensal": "2,70",
+        "taxa_de_juros_anual": "37,67"
+      },
+      {
+        "contrato": "148459274000062021",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "06/2021",
+        "saldo_devedor": "R$3.954,41",
+        "desconto": "R$134,59",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000032022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "03/2022",
+        "saldo_devedor": "R$4.290,87",
+        "desconto": "R$134,59",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000062022",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "06/2022",
+        "saldo_devedor": "R$4.417,78",
+        "desconto": "R$146,75",
+        "utilizado_no_mes": "R$29,90",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      },
+      {
+        "contrato": "148459274000042020",
+        "tipo": "Desconto de cartão (RMC)",
+        "banco": "318 - BANCO BMG S A",
+        "situacao": "Encerrado",
+        "competencia": "04/2020",
+        "saldo_devedor": "R$3.158,09",
+        "desconto": "R$117,59",
+        "utilizado_no_mes": "R$0,00",
+        "iof": "",
+        "cet_mensal": "",
+        "cet_anual": "",
+        "taxa_de_juros_mensal": "",
+        "taxa_de_juros_anual": ""
+      }
+    ]
+  },
+  "metadata": {
+    "version": "1.0",
+    "totalExtracted": 11,
+    "progressPercent": 100
+  }
+}
