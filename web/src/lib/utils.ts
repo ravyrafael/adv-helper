@@ -40,6 +40,10 @@ export function generateId(): string {
 }
 
 export const API_BASE_URL =
+  process.env.NEXT_PUBLIC_API_URL ||
+  'https://guizao-adv-helper-server.dszvj9.easypanel.host';
+
+export const API_BASE_URL_LOCAL =
   process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
 
 export async function apiRequest<T>(
