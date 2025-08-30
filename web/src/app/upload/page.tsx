@@ -23,6 +23,7 @@ import {
   Loader2,
   User,
   Calendar,
+  Trash2,
 } from 'lucide-react';
 import { formatFileSize, apiRequest } from '@/lib/utils';
 import { DocumentViewer } from '@/components/documents/DocumentViewer';
@@ -64,6 +65,8 @@ export default function UploadPage() {
   const [selectedDocument, setSelectedDocument] = useState<string | null>(null);
   const [documentAnalysis, setDocumentAnalysis] = useState<any>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [documentToDelete, setDocumentToDelete] = useState<string | null>(null);
   // const [showFullAnalysis, setShowFullAnalysis] = useState(false);
   const { toast } = useToast();
 
@@ -167,6 +170,52 @@ export default function UploadPage() {
       });
     } finally {
       setIsAnalyzing(false);
+    }
+  };
+
+  const deleteDocument = async (documentId: string) => {
+    try {
+      setIsDeleting(true);
+      setDocumentToDelete(documentId);
+
+      await apiRequest(`/api/v1/pdf/documents/${documentId}`, {
+        method: 'DELETE',
+      });
+
+      toast({
+        variant: 'success',
+        title: 'Documento deletado!',
+        description: 'O documento foi removido com sucesso.',
+      });
+
+      // Recarregar lista de documentos
+      await loadExistingDocuments();
+
+      // Limpar seleção se o documento deletado estava selecionado
+      if (selectedDocument === documentId) {
+        setDocumentAnalysis(null);
+        setSelectedDocument(null);
+      }
+    } catch (error: any) {
+      console.error('❌ Erro ao deletar documento:', error);
+      toast({
+        variant: 'destructive',
+        title: 'Erro ao deletar',
+        description: `Não foi possível deletar o documento: ${error.message}`,
+      });
+    } finally {
+      setIsDeleting(false);
+      setDocumentToDelete(null);
+    }
+  };
+
+  const confirmDeleteDocument = (documentId: string, documentName: string) => {
+    if (
+      window.confirm(
+        `Tem certeza que deseja deletar o documento "${documentName}"?\n\nEsta ação não pode ser desfeita e removerá permanentemente o documento e sua análise.`,
+      )
+    ) {
+      deleteDocument(documentId);
     }
   };
 
@@ -376,6 +425,26 @@ export default function UploadPage() {
                             Analisar
                           </Button>
                         )}
+                        <Button
+                          variant="destructive"
+                          size="sm"
+                          onClick={() =>
+                            confirmDeleteDocument(
+                              document.id,
+                              document.originalName,
+                            )
+                          }
+                          disabled={
+                            isDeleting && documentToDelete === document.id
+                          }
+                        >
+                          {isDeleting && documentToDelete === document.id ? (
+                            <Loader2 className="h-4 w-4 animate-spin mr-1" />
+                          ) : (
+                            <Trash2 className="h-4 w-4 mr-1" />
+                          )}
+                          Apagar
+                        </Button>
                       </div>
                     </div>
 

@@ -2,6 +2,7 @@ import {
   Controller,
   Post,
   Get,
+  Delete,
   UseInterceptors,
   UploadedFile,
   HttpStatus,
@@ -286,6 +287,71 @@ export class PdfController {
 
       throw new BadRequestException(
         `Erro na análise do contrato: ${error.message}`,
+      );
+    }
+  }
+
+  @Delete('documents/:documentId')
+  @ApiOperation({
+    summary: 'Deletar documento',
+    description:
+      'Remove completamente um documento convertido e sua análise do sistema',
+  })
+  @ApiParam({
+    name: 'documentId',
+    description: 'ID do documento a ser deletado',
+    example:
+      'ac3df69e-f171-462d-8b71-fc099ef72d2e_extrato_emprestimo_consignado_completo_260324',
+  })
+  @ApiResponse({
+    status: 200,
+    description: 'Documento deletado com sucesso',
+  })
+  @ApiResponse({
+    status: 400,
+    description: 'ID de documento inválido',
+  })
+  @ApiResponse({
+    status: 404,
+    description: 'Documento não encontrado',
+  })
+  @ApiResponse({
+    status: 500,
+    description: 'Erro interno na deleção',
+  })
+  async deleteDocument(@Param('documentId') documentId: string) {
+    this.logger.log(`Deleting document: ${documentId}`);
+
+    if (!documentId || documentId.trim() === '') {
+      throw new BadRequestException('ID de documento é obrigatório');
+    }
+
+    try {
+      await this.pdfConversionService.deleteDocument(documentId);
+
+      this.logger.log(`Document ${documentId} deleted successfully`);
+
+      return {
+        success: true,
+        message: 'Documento deletado com sucesso',
+        documentId,
+        timestamp: new Date().toISOString(),
+      };
+    } catch (error) {
+      this.logger.error(
+        `Error deleting document: ${error.message}`,
+        error.stack,
+      );
+
+      if (
+        error instanceof BadRequestException ||
+        error instanceof NotFoundException
+      ) {
+        throw error;
+      }
+
+      throw new BadRequestException(
+        `Erro ao deletar documento: ${error.message}`,
       );
     }
   }

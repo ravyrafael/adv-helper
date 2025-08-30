@@ -139,4 +139,33 @@ export class PdfConversionService {
       throw new InternalServerErrorException('Erro ao listar conversões');
     }
   }
+
+  async deleteDocument(documentId: string): Promise<void> {
+    try {
+      this.logger.log(`Deleting document: ${documentId}`);
+
+      // Verificar se o documento existe
+      const conversions = await this.listConversions();
+      const document = conversions.find((c) => c.id === documentId);
+
+      if (!document) {
+        throw new BadRequestException(
+          `Documento com ID ${documentId} não encontrado`,
+        );
+      }
+
+      const outputPath = path.join(process.cwd(), 'output', documentId);
+
+      // Deletar o diretório e todos os arquivos
+      await this.fileService.deleteDirectory(outputPath);
+
+      this.logger.log(`Document ${documentId} deleted successfully`);
+    } catch (error) {
+      this.logger.error(
+        `Failed to delete document ${documentId}: ${error.message}`,
+        error.stack,
+      );
+      throw error;
+    }
+  }
 }

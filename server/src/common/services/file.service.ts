@@ -28,6 +28,16 @@ export class FileService {
     }
   }
 
+  async deleteDirectory(dirPath: string): Promise<void> {
+    try {
+      await fsExtra.remove(dirPath);
+      this.logger.debug(`Directory deleted: ${dirPath}`);
+    } catch (error) {
+      this.logger.error(`Failed to delete directory: ${dirPath}`, error);
+      throw error;
+    }
+  }
+
   async writeFile(filePath: string, data: Buffer): Promise<void> {
     try {
       await fs.writeFile(filePath, data);
