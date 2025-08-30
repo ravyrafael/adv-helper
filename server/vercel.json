@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "rewrites": [
+
+  "builds": [
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "src": "dist/main.js",
+      "use": "@vercel/node"
     }
   ],
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/main.js",
+      "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
+    }
+  ]
 }
