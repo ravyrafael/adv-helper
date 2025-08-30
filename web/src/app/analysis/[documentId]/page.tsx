@@ -26,26 +26,47 @@ import { apiRequest } from '@/lib/utils';
 interface ContractDetails {
   contrato: string;
   banco: string;
-  situacao: string;
-  origem_averbacao: string;
-  data_inclusao: string;
-  inicio_desconto: string;
-  fim_desconto: string;
-  qtd_parcelas: string;
-  parcela: string;
-  emprestado: string;
-  liberado: string;
-  iof: string;
-  cet_mensal: string;
-  cet_anual: string;
-  taxa_juros_mensal: string;
-  taxa_juros_anual: string;
-  valor_pago: string;
-  primeiro_desconto: string;
-  suspensao_banco: string;
-  suspensao_inss: string;
-  reativacao_banco: string;
-  reativacao_inss: string;
+  situação?: string;
+  situacao?: string;
+  'origem da averbação'?: string;
+  origem_averbacao?: string;
+  'data inclusão'?: string;
+  data_inclusao?: string;
+  competência?: {
+    'início desconto'?: string;
+    'fim desconto'?: string;
+  };
+  competencia?: {
+    inicio_desconto?: string;
+    fim_desconto?: string;
+  };
+  'qtde parcelas'?: number | string;
+  qtd_parcelas?: string;
+  valor?: {
+    parcela?: string;
+    emprestado?: string;
+    liberado?: string;
+    iof?: string;
+    'valor pago'?: string;
+  };
+  parcela?: string;
+  emprestado?: string;
+  liberado?: string;
+  iof?: string;
+  cet_mensal?: string;
+  cet_anual?: string;
+  taxa_juros_mensal?: string;
+  taxa_juros_anual?: string;
+  valor_pago?: string;
+  primeiro_desconto?: string;
+  suspensao_banco?: string;
+  suspensao_inss?: string;
+  reativacao_banco?: string;
+  reativacao_inss?: string;
+  data?: {
+    exclusão?: string;
+    'origem da exclusão'?: string;
+  };
   data_exclusao?: string;
   origem_da_exclusao?: string;
   motivo_da_exclusao?: string;
@@ -159,17 +180,17 @@ export default function AnalysisPage() {
               {contract.banco}
             </CardDescription>
           </div>
-          <Badge
-            variant={
-              contract.situacao?.toLowerCase().includes('ativo')
-                ? 'default'
-                : contract.situacao?.toLowerCase().includes('excluído')
-                  ? 'destructive'
-                  : 'secondary'
-            }
-          >
-            {contract.situacao}
-          </Badge>
+                      <Badge
+              variant={
+                (contract.situação || contract.situacao)?.toLowerCase().includes('ativo')
+                  ? 'default'
+                  : (contract.situação || contract.situacao)?.toLowerCase().includes('excluído')
+                    ? 'destructive'
+                    : 'secondary'
+              }
+            >
+              {contract.situação || contract.situacao}
+            </Badge>
         </div>
       </CardHeader>
       <CardContent>
@@ -179,30 +200,34 @@ export default function AnalysisPage() {
               <MapPin className="h-4 w-4 mr-1" />
               Origem e Datas
             </h4>
-            <div className="space-y-1">
-              <div>
-                <span className="text-gray-600">Origem:</span>{' '}
-                {contract.origem_averbacao || 'N/A'}
-              </div>
-              <div>
-                <span className="text-gray-600">Data Inclusão:</span>{' '}
-                {contract.data_inclusao || 'N/A'}
-              </div>
-              <div>
-                <span className="text-gray-600">Início Desconto:</span>{' '}
-                {contract.inicio_desconto || 'N/A'}
-              </div>
-              <div>
-                <span className="text-gray-600">Fim Desconto:</span>{' '}
-                {contract.fim_desconto || 'N/A'}
-              </div>
-              {contract.data_exclusao && (
+                          <div className="space-y-1">
                 <div>
-                  <span className="text-gray-600">Data Exclusão:</span>{' '}
-                  {contract.data_exclusao}
+                  <span className="text-gray-600">Origem:</span>{' '}
+                  {contract['origem da averbação'] || contract.origem_averbacao || 'N/A'}
                 </div>
-              )}
-            </div>
+                <div>
+                  <span className="text-gray-600">Data Inclusão:</span>{' '}
+                  {contract['data inclusão'] || contract.data_inclusao || 'N/A'}
+                </div>
+                <div>
+                  <span className="text-gray-600">Início Desconto:</span>{' '}
+                  {contract.competência?.['início desconto'] || 
+                   contract.competencia?.inicio_desconto || 
+                   contract.inicio_desconto || 'N/A'}
+                </div>
+                <div>
+                  <span className="text-gray-600">Fim Desconto:</span>{' '}
+                  {contract.competência?.['fim desconto'] || 
+                   contract.competencia?.fim_desconto || 
+                   contract.fim_desconto || 'N/A'}
+                </div>
+                {(contract.data_exclusao || contract.data?.exclusão) && (
+                  <div>
+                    <span className="text-gray-600">Data Exclusão:</span>{' '}
+                    {contract.data?.exclusão || contract.data_exclusao}
+                  </div>
+                )}
+              </div>
           </div>
 
           <div className="space-y-2">
@@ -210,32 +235,32 @@ export default function AnalysisPage() {
               <DollarSign className="h-4 w-4 mr-1" />
               Valores Financeiros
             </h4>
-            <div className="space-y-1">
-              <div>
-                <span className="text-gray-600">Parcelas:</span>{' '}
-                {contract.qtd_parcelas || 'N/A'}
+                          <div className="space-y-1">
+                <div>
+                  <span className="text-gray-600">Parcelas:</span>{' '}
+                  {contract['qtde parcelas'] || contract.qtd_parcelas || 'N/A'}
+                </div>
+                <div>
+                  <span className="text-gray-600">Valor Parcela:</span>{' '}
+                  {contract.valor?.parcela || contract.parcela || 'N/A'}
+                </div>
+                <div>
+                  <span className="text-gray-600">Emprestado:</span>{' '}
+                  {contract.valor?.emprestado || contract.emprestado || 'N/A'}
+                </div>
+                <div>
+                  <span className="text-gray-600">Liberado:</span>{' '}
+                  {contract.valor?.liberado || contract.liberado || 'N/A'}
+                </div>
+                <div>
+                  <span className="text-gray-600">IOF:</span>{' '}
+                  {contract.valor?.iof || contract.iof || 'N/A'}
+                </div>
+                <div>
+                  <span className="text-gray-600">Valor Pago:</span>{' '}
+                  {contract.valor?.['valor pago'] || contract.valor_pago || 'N/A'}
+                </div>
               </div>
-              <div>
-                <span className="text-gray-600">Valor Parcela:</span>{' '}
-                {contract.parcela || 'N/A'}
-              </div>
-              <div>
-                <span className="text-gray-600">Emprestado:</span>{' '}
-                {contract.emprestado || 'N/A'}
-              </div>
-              <div>
-                <span className="text-gray-600">Liberado:</span>{' '}
-                {contract.liberado || 'N/A'}
-              </div>
-              <div>
-                <span className="text-gray-600">IOF:</span>{' '}
-                {contract.iof || 'N/A'}
-              </div>
-              <div>
-                <span className="text-gray-600">Valor Pago:</span>{' '}
-                {contract.valor_pago || 'N/A'}
-              </div>
-            </div>
           </div>
 
           <div className="space-y-2">
